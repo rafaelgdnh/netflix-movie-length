@@ -6,7 +6,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-# Create the years and durations lists
+# Create test years and durations lists
 years = [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
 durations = [103, 101, 99, 100, 100, 95, 95, 96, 93, 90]
 
@@ -90,7 +90,7 @@ for genre, row in netflix_movies_col_subset.iterrows():
 print(colors[0:11])
 
 
-# Set the figure style and initalize a new figure
+# Set the figure style and initialize a new figure
 plt.style.use('fivethirtyeight')
 fig = plt.figure(figsize=(12,8))
 
@@ -104,16 +104,3 @@ plt.ylabel("Duration (min)")
 
 # Show the plot
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
